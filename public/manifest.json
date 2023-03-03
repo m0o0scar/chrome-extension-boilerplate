@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "chrome-extension-boilerplate",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "Chrome extension boilerplate",
   "options_page": "src/pages/options/index.html",
   "background": {
     "service_worker": "src/pages/background/index.js"
@@ -10,9 +10,6 @@
   "action": {
     "default_popup": "src/pages/popup/index.html",
     "default_icon": "icon-34.png"
-  },
-  "chrome_url_overrides": {
-    "newtab": "src/pages/newtab/index.html"
   },
   "icons": {
     "128": "icon-128.png"
